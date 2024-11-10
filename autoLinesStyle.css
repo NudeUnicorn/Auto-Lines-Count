@@ -1,0 +1,65 @@
+:root{
+	--baseFontSize: 18rem;
+	--baseLineHeight: 20rem;
+	--baseFontSizeMultiplier: 0.35vw;
+	--baseLineHeightMultiplier: 0.5vw;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	scrollbar-width: auto;
+}
+
+html {
+	box-sizing: border-box;
+	font-size: 1px !important;
+	overflow-x: hidden;
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+	margin: 30px 10px;
+}
+
+p{
+	margin-top: 20px;
+}
+
+main{
+	padding: 10px;
+	margin: 0 auto;
+	max-width: calc(900px + 1vw);
+}
+
+/*	-----autoLinesCount-----	*/
+
+body {
+	font: normal 16rem/23rem 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+	font-size: calc(var(--baseFontSize) + var(--baseFontSizeMultiplier));
+	line-height: calc(var(--baseLineHeight) + var(--baseLineHeightMultiplier));
+}
+
+.row {
+	display: flex;
+	flex-flow: row wrap;
+}
+.column {
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.autoLineColumn{
+	max-width: 80px;
+	flex: 1 0 50px;
+    padding: 1em;
+    text-align: right;
+}
+.autoLineCode{
+	flex: 1 0;
+}
+
+/*	-----autoLinesCount-----	*/

@@ -1,0 +1,15 @@
+<link rel="stylesheet" type="text/css" href="autoLinesStyle.css">
+
+
+<!-- element, for which you want count lines must be wrapped by other, for example div or everithing else -->
+
+<!-- Function tries to find `line-height` style attribute from the `getComputedStyle` , so it very important to set up `body{ line-height: something }`, or set first function argument -->
+
+
+<script src="autoLinesCount.js"></script>
+  <script>
+
+    autoLinesCount();
+    
+    
+  </script>
