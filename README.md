@@ -2,9 +2,9 @@
 Automatically count lines for `code` tags, or elements with classes you chose
 
 ## How to use
-look at [example]()
+look at [example](https://github.com/NudeUnicorn/Auto-Lines-Count/tree/main/Example)
 
->[!Warning] Function tries to find `line-height` style attribute from the `getComputedStyle` , so it very important to set up `body{ line-height: something }`, or set first function argument
+> Function tries to find `line-height` style attribute from the `getComputedStyle` , so it very important to set up `body{ line-height: something }`, or set first function argument
 
 
 - just link `autoLinesCount.js` and `autoLinesStyle.css` files
@@ -43,9 +43,9 @@ look at [example]()
 Считает количество строк для тэгов `code` или элементов с классами, которые вы выбрали
 
 ## Как использовать
-посмотрите на [пример]()
+посмотрите на [пример](https://github.com/NudeUnicorn/Auto-Lines-Count/tree/main/Example)
 
->[!Warning] Функция пытается получить `line-height` из установленных (вычисленных) стилей `getComputedStyle` , поэтому очень важно установить `body{ line-height: что-то }`, или указать первый аргумент функции
+> Функция пытается получить `line-height` из установленных (вычисленных) стилей `getComputedStyle` , поэтому очень важно установить `body{ line-height: что-то }`, или указать первый аргумент функции
 
 - привяжите файлы `autoLinesCount.js` и `autoLinesStyle.css`
 
